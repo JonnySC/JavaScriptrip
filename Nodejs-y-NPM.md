@@ -40,11 +40,11 @@ Una vez completada la instalación, podrás verificar si Node.js se instaló cor
 En la mayoría de las distribuciones de Linux, puedes instalar Node.js a través de la línea de comandos utilizando el administrador de paquetes predeterminado.
 Abre una terminal y ejecuta el siguiente comando para actualizar los repositorios:
 
-sudo apt update
+` sudo apt update `
 
 Luego, ejecuta el siguiente comando para instalar Node.js y npm:
 
-sudo apt install nodejs npm
+` sudo apt install nodejs npm `
 
 Una vez completada la instalación, puedes verificar si Node.js se instaló correctamente escribiendo el comando node -v en la terminal. Si ves la versión de Node.js instalada, significa que se instaló correctamente.
 
@@ -53,22 +53,24 @@ Estas son instrucciones generales, pero te recomendaría consultar la documentac
 
 Para verificar la versión de Node.js instalada en tu sistema, puedes abrir una terminal o línea de comandos y ejecutar el siguiente comando:
 
-bash
-´
-node -v 
-´
+
+
+` node -v `
+
 Esto mostrará la versión de Node.js instalada. Por ejemplo, si tienes instalada la versión 14.17.0, el resultado sería:
 
 
-v14.17.0
+` v14.17.0 `
+
 Además de eso, también puedes verificar la versión de npm (Node Package Manager) ejecutando el siguiente comando:
 
-bash
 
-npm -v
+
+` npm -v `
+
 Esto mostrará la versión de npm instalada en tu sistema. Por ejemplo, si tienes instalada la versión 6.14.13, el resultado sería:
 
 
-6.14.13
+` 6.14.13 `
 
 Estos comandos te permitirán confirmar la versión de Node.js y npm que están configurados en tu sistema.
