@@ -18,6 +18,17 @@ Además, existen frameworks y librerías construidas sobre Node.js que ayudan a 
 
 En resumen, Node.js es un entorno de ejecución de JavaScript que proporciona las bases para el desarrollo de aplicaciones del lado del servidor, mientras que los frameworks y librerías construidas sobre Node.js ofrecen funcionalidades adicionales y herramientas para facilitar el desarrollo de aplicaciones web y servidores.
 
+NPM (Node Package Manager) es el administrador de paquetes predeterminado para Node.js. Es una herramienta que te permite descargar, instalar y administrar las dependencias de tu proyecto de manera sencilla.
+
+Con NPM, puedes acceder a un vasto ecosistema de paquetes y módulos de código abierto creados por la comunidad de desarrolladores de Node.js. Estos paquetes pueden ser bibliotecas, frameworks, utilidades y muchas otras herramientas útiles que puedes utilizar en tus proyectos.
+
+Al utilizar NPM, puedes declarar las dependencias de tu proyecto en un archivo llamado "package.json". Este archivo contiene información sobre tu proyecto, como su nombre, versión, autor, descripción, y una lista de las dependencias que necesita tu proyecto para funcionar correctamente. Puedes especificar las versiones exactas o rangos de versiones de las dependencias que deseas utilizar.
+
+Cuando trabajas en un proyecto Node.js y tienes un archivo "package.json" con las dependencias declaradas, puedes ejecutar el comando `npm install` en la línea de comandos en la carpeta raíz del proyecto. Esto instalará todas las dependencias del proyecto según las especificaciones del archivo "package.json" en una carpeta llamada "node_modules".
+
+NPM también te permite actualizar, desinstalar y administrar las dependencias de tu proyecto, además de proporcionar comandos para ejecutar scripts definidos en el archivo "package.json".
+
+En resumen, NPM es un administrador de paquetes para Node.js que te permite instalar, actualizar y administrar las dependencias de tu proyecto. Proporciona acceso a un amplio conjunto de paquetes y módulos de la comunidad de desarrolladores de Node.js, lo que facilita la incorporación de funcionalidades adicionales a tus proyectos de manera eficiente. 
 
 La forma de instalar Node.js puede variar según el sistema operativo que estés utilizando. Aquí te proporcionaré instrucciones generales para los sistemas operativos más comunes:
 
@@ -44,7 +55,7 @@ Abre una terminal y ejecuta el siguiente comando para actualizar los repositorio
 
 Luego, ejecuta el siguiente comando para instalar Node.js y npm:
 
-` sudo apt install nodejs npm `
+` sudo apt install nodejs npm ` 
 
 Una vez completada la instalación, puedes verificar si Node.js se instaló correctamente escribiendo el comando node -v en la terminal. Si ves la versión de Node.js instalada, significa que se instaló correctamente.
 
